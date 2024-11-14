@@ -460,11 +460,11 @@ def _make_estimator_overview(app):
         "detector": [
             "capability:multivariate",
             "capability:missing_values",
-            "capability:contractable",
-            "capability:predict",
-            "capability:predict:proba",
-            "capability:out_of_sample",
             "python_dependencies",
+            "object_type",
+            "learning_type",
+            "task",
+            "distribution_type",
             "authors",
             "maintainers",
         ]
